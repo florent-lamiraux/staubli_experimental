@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro">
-  <xacro:include filename="$(find staubli_resources)/urdf/common_materials.xacro"/>
+  <xacro:include filename="$(find staubli_tx2_90_support)/urdf/common_materials.xacro"/>
 
   <xacro:macro name="staubli_tx2_90" params="prefix">
     <!-- links: main serial chain -->
